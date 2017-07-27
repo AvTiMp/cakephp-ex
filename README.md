@@ -17,7 +17,7 @@ Since the quickstarts are shared code, we had to take special consideration to e
 ###Installation:
 These steps assume your OpenShift deployment has the default set of ImageStreams defined.  Instructions for installing the default ImageStreams are available [here](https://docs.openshift.org/latest/install_config/imagestreams_templates.html#creating-image-streams-for-openshift-images).  If you are defining the set of ImageStreams now, remember to pass in the proper cluster-admin credentials and to create the ImageStreams in the 'openshift' namespace.
 
-1. Fork a copy of [cakephp-ex](https://github.com/openshift/cakephp-ex)
+1. (test)Fork a copy of [cakephp-ex](https://github.com/openshift/cakephp-ex)
 2. Clone your repository to your development machine and cd to the repository directory
 3. Add a PHP application from the provided template and specify the source url to be your forked repo  
 
